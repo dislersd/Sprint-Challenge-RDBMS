@@ -34,26 +34,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 ---
 
-1. Explain the difference between `RDBMS` and `SQL`.
+[x] Explain the difference between `RDBMS` and `SQL`.
 
 - An _RDBMS_ is specialized software that helps us manage our tables in a relational database. RDB Management System.
 - _SQL_ is a language used to communicate with databases and insert/access the data within them
 
 ---
 
-1. Why do tables need a `primary key`?
+[x] Why do tables need a `primary key`?
 
 - So we can differentiate between different resources/items within a table, also to join to other tables.
 
 ---
 
-1. What is the name given to a table column that references the primary key on another table.
+[x] What is the name given to a table column that references the primary key on another table.
 
 - Foreign Key
 
 ---
 
-1. What do we need in order to have a _many to many_ relationship between two tables.
+[x] What do we need in order to have a _many to many_ relationship between two tables.
 
 - Two tables where one table may contain a resource that can appear in many of another table and vise versa. For instance a recipe can have many ingredients and an ingredient can be in many recipes.
 
