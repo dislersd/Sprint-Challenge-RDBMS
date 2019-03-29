@@ -1,9 +1,9 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable("actions", tbl => {
     tbl.increments(); // primary key
+
     tbl.string("description", 128).notNullable();
     tbl.string("notes", 128).notNullable();
-    tbl.boolean("false");
     tbl
       .integer("project_id")
       .unsigned()
@@ -12,6 +12,8 @@ exports.up = function(knex, Promise) {
       .inTable("projects")
       .onDelete("CASCADE")
       .onUpdate("CASCADE");
+    tbl
+      .boolean("completed").defaultTo(false);
   });
 };
 

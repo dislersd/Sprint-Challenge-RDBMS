@@ -3,7 +3,7 @@ exports.up = function(knex, Promise) {
     tbl.increments(); // primary key
     tbl.string("name", 128).notNullable();
     tbl.string("description", 128).notNullable();
-    tbl.boolean("false")
+    tbl.boolean("completed").defaultTo(false);
   });
 };
 
