@@ -1,4 +1,4 @@
-# Sprint Challenge: RDBMS and SQL - Projects & Actions 
+# Sprint Challenge: RDBMS and SQL - Projects & Actions
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project.
 
@@ -32,10 +32,32 @@ This will be akin to the Web API that you built in the last sprint, only this ti
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
+---
+
 1. Explain the difference between `RDBMS` and `SQL`.
+
+- An RDBMS is specialized software that helps us manage our tables in a relational database. RDB Management System.
+  - SQL is a language used to communicate with databases and insert/access the data within them
+
+---
+
 1. Why do tables need a `primary key`?
+
+- So we can differentiate between different resources/items within a table, also to join to other tables.
+
+---
+
 1. What is the name given to a table column that references the primary key on another table.
+
+- Foreign Key
+
+---
+
 1. What do we need in order to have a _many to many_ relationship between two tables.
+
+- Two tables where one table may contain a resource that can appear in many of another table and vise versa. For instance a recipe can have many ingredients and an ingredient can be in many recipes.
+
+---
 
 ## Project Set Up
 
