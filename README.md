@@ -36,8 +36,8 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. Explain the difference between `RDBMS` and `SQL`.
 
-- An RDBMS is specialized software that helps us manage our tables in a relational database. RDB Management System.
-  - SQL is a language used to communicate with databases and insert/access the data within them
+- An _RDBMS_ is specialized software that helps us manage our tables in a relational database. RDB Management System.
+- _SQL_ is a language used to communicate with databases and insert/access the data within them
 
 ---
 
